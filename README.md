@@ -1,56 +1,19 @@
-# # 🏥 Health Data Analytics Portfolio
-**Author:** Idarwati  
-**Role:** Health Administrator & Lecturer | Aspiring Data Analyst  
-**Focus:** Ophthalmology, Public Health, & Hospital Efficiency
+Seringkali kita mendengar "Pasien Diabetes itu rentan sakit mata". Tapi seberapa valid pernyataan itu secara data? Dan apakah cukup signifikan untuk mengubah SOP Rumah Sakit?
 
----
+Hari ini, saya melanjutkan proyek Data Science saya dengan melakukan Uji Hipotesis Statistik (Hypothesis Testing) menggunakan Python. 🐍
 
-## 📌 Project Roadmap (Journey Log)
-Berikut adalah dokumentasi perjalanan saya mempelajari Data Science untuk kesehatan dalam 1 bulan:
+Menggunakan data simulasi klinis, saya melakukan dua pengujian:
+1️⃣ 𝗧-𝗧𝗲𝘀𝘁: Memvalidasi perbedaan Tekanan Bola Mata (IOP) pada pasien Glaukoma.
+2️⃣ 𝗖𝗵𝗶-𝗦𝗾𝘂𝗮𝗿𝗲: Menguji korelasi antara Riwayat Diabetes dengan kejadian Retinopati.
 
-* **[Minggu 1: Hospital Operations & Risk Analysis](#week-1)**
-    * [Day 1: Optimizing Eye Hospital Resources (Descriptive Analysis)](#day-1)
-    * [Day 2: Validating Clinical Risk Factors (Statistical Inference)](#day-2)
+📊 𝗛𝗮𝘀𝗶𝗹𝗻𝘆𝗮?
+P-Value menunjukkan angka yang sangat kecil (< 0.05), yang artinya hubungan tersebut Statistically Significant (Sangat Nyata).
 
----
+💡 𝗜𝗺𝗽𝗹𝗶𝗸𝗮𝘀𝗶 𝗯𝗮𝗴𝗶 𝗠𝗮𝗻𝗮𝗷𝗲𝗺𝗲𝗻 𝗥𝗦:
+Data ini bukan sekadar angka. Ini adalah landasan ilmiah untuk membuat kebijakan: "Wajibkan Skrining Fundus bagi setiap pasien berstatus Diabetes di bagian pendaftaran." 
 
-<a name="week-1"></a>
-# 📅 WEEK 1: Hospital Operations & Risk Analysis
+Sebagai Health Administrator, kemampuan memvalidasi asumsi menggunakan statistik seperti ini sangat membantu dalam menyusun Clinical Pathway yang lebih efisien.
 
-<a name="day-1"></a>
-## 🚀 Day 1: Optimizing Eye Hospital Resources
-**Focus:** Descriptive Analytics & Visualization
+Next step: Saya akan mencoba membangun Machine Learning Model untuk MEMPREDIKSI apakah seseorang terkena Glaukoma berdasarkan data ini! 🤖
 
-### 1. Latar Belakang (Background)
-Sebagai administrator kesehatan, saya melihat perlunya keputusan berbasis data. Proyek ini mensimulasikan data operasional RS Mata (n=500) untuk menganalisis hambatan layanan.
-
-### 2. Key Insights 📊
-* **Poli Katarak** memiliki volume pasien tertinggi (~35%), menjadi titik kritis antrean.
-* **Segmentasi Umur:** Poli Glaukoma didominasi pasien Geriatri (>60 th), sedangkan Poli Retina & Infeksi didominasi usia produktif.
-* **Rekomendasi:** Penerapan "Dynamic Staffing" di poli Katarak pada jam sibuk.
-
----
-
-<a name="day-2"></a>
-## 🧪 Day 2: Validating Clinical Risk Factors
-**Focus:** Statistical Hypothesis Testing (Inferential Statistics)
-
-### 1. Objective
-Setelah melihat pola visual di Day 1, hari ini saya menggunakan uji statistik untuk membuktikan apakah hubungan antar variabel klinis bersifat signifikan atau hanya kebetulan.
-
-### 2. Statistical Findings 🧮
-Saya menggunakan Python (`Scipy`) untuk melakukan uji hipotesis:
-
-#### A. Intraocular Pressure (IOP) & Glaucoma (T-Test)
-* **Hypothesis:** Apakah tekanan mata pasien Glaukoma berbeda signifikan dengan pasien Normal?
-* **Result:** P-Value < 0.05 (Signifikan).
-* **Insight:** Rata-rata TIO pasien Glaukoma (~20.4 mmHg) secara statistik lebih tinggi dibanding pasien normal. Ini memvalidasi TIO sebagai indikator skrining utama.
-
-#### B. Diabetes & Retinopathy (Chi-Square Test)
-* **Hypothesis:** Apakah riwayat Diabetes berhubungan dengan kejadian Retinopati?
-* **Result:** P-Value < 0.05 (Signifikan).
-* **Insight:** Ada ketergantungan kuat (strong dependency) antara Diabetes dan kerusakan retina.
-* **Actionable Plan:** RS wajib menerapkan protokol skrining fundus otomatis bagi setiap pasien berstatus Diabetes di pendaftaran.
-
----
-*Repository ini akan terus diupdate setiap hari selama tantangan 30 hari.*
+#HealthcareAnalytics #DataScience #Statistics #Python #PublicHealth #EvidenceBasedMedicine #BelajarData
