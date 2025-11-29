@@ -1,6 +1,6 @@
 # 🏥 Optimizing Eye Hospital Resources: A Data-Driven Approach
 
-**Author:** [Nama Anda]  
+**Author:** idar  
 **Role:** Health Administrator & Aspiring Data Analyst  
 **Tools:** Python (Pandas, Seaborn, Matplotlib)
 
