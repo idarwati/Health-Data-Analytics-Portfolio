@@ -1,4 +1,6 @@
-# 🏥 Optimizing Eye Hospital Resources: A Data-Driven Approach
+# Day 1 - 29-11-2025
+
+## 🏥 Optimizing Eye Hospital Resources: A Data-Driven Approach
 
 **Author:** idar  
 **Role:** Health Administrator & Aspiring Data Analyst  
