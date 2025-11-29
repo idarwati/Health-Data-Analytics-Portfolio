@@ -7,7 +7,7 @@
 ---
 
 ## 1. Latar Belakang (Background)
-Sebagai seorang administrator kesehatan, saya sering melihat keputusan manajemen diambil berdasarkan intuisi. Proyek ini bertujuan menggunakan **Data Science** untuk memberikan bukti berbasis data (evidence-based) terkait alur pasien dan alokasi sumber daya di Rumah Sakit Mata.
+Sebagai seorang administrator kesehatan, saya sering melihat keputusan manajemen diambil berdasarkan intuisi. Proyek ini bertujuan menggunakan **Data Science** untuk memberikan bukti berbasis data (evidence-based) terkait alur pasien dan alokasi sumber daya di Rumah Sakit.
 
 ## 2. Metodologi
 Saya melakukan simulasi data kunjungan pasien (dummy data, n=500) yang mencerminkan operasional RS Mata sehari-hari.
