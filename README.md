@@ -1,4 +1,4 @@
-## 5. Statistical Hypothesis Testing (Risk Factor Analysis)
+## Statistical Hypothesis Testing (Risk Factor Analysis)
 To validate the relationships between clinical variables, I performed inferential statistical tests using `Scipy`.
 
 ### A. Intraocular Pressure (IOP) & Glaucoma Diagnosis
