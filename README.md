@@ -1,19 +1,16 @@
-Seringkali kita mendengar "Pasien Diabetes itu rentan sakit mata". Tapi seberapa valid pernyataan itu secara data? Dan apakah cukup signifikan untuk mengubah SOP Rumah Sakit?
+## 5. Statistical Hypothesis Testing (Risk Factor Analysis)
+To validate the relationships between clinical variables, I performed inferential statistical tests using `Scipy`.
 
-Hari ini, saya melanjutkan proyek Data Science saya dengan melakukan Uji Hipotesis Statistik (Hypothesis Testing) menggunakan Python. 🐍
+### A. Intraocular Pressure (IOP) & Glaucoma Diagnosis
+* **Objective:** To determine if IOP is a valid differentiator for Glaucoma.
+* **Method:** Independent T-Test (Continuous vs Categorical).
+* **Result:** P-Value < 0.05 ($1.32 \times 10^{-41}$).
+* **Insight:** There is a statistically significant difference in mean IOP between Glaucoma and Normal patients. Patients with Glaucoma have a significantly higher mean IOP (~20.4 mmHg) compared to Normal patients (~16.8 mmHg).
+* **Recommendation:** IOP screening remains a critical "first-line" filter for Glaucoma detection in our hospital.
 
-Menggunakan data simulasi klinis, saya melakukan dua pengujian:
-1️⃣ 𝗧-𝗧𝗲𝘀𝘁: Memvalidasi perbedaan Tekanan Bola Mata (IOP) pada pasien Glaukoma.
-2️⃣ 𝗖𝗵𝗶-𝗦𝗾𝘂𝗮𝗿𝗲: Menguji korelasi antara Riwayat Diabetes dengan kejadian Retinopati.
-
-📊 𝗛𝗮𝘀𝗶𝗹𝗻𝘆𝗮?
-P-Value menunjukkan angka yang sangat kecil (< 0.05), yang artinya hubungan tersebut Statistically Significant (Sangat Nyata).
-
-💡 𝗜𝗺𝗽𝗹𝗶𝗸𝗮𝘀𝗶 𝗯𝗮𝗴𝗶 𝗠𝗮𝗻𝗮𝗷𝗲𝗺𝗲𝗻 𝗥𝗦:
-Data ini bukan sekadar angka. Ini adalah landasan ilmiah untuk membuat kebijakan: "Wajibkan Skrining Fundus bagi setiap pasien berstatus Diabetes di bagian pendaftaran." 
-
-Sebagai Health Administrator, kemampuan memvalidasi asumsi menggunakan statistik seperti ini sangat membantu dalam menyusun Clinical Pathway yang lebih efisien.
-
-Next step: Saya akan mencoba membangun Machine Learning Model untuk MEMPREDIKSI apakah seseorang terkena Glaukoma berdasarkan data ini! 🤖
-
-#HealthcareAnalytics #DataScience #Statistics #Python #PublicHealth #EvidenceBasedMedicine #BelajarData
+### B. Diabetes & Diabetic Retinopathy
+* **Objective:** To assess the association between Diabetes history and Retinopathy incidence.
+* **Method:** Chi-Square Test of Independence.
+* **Result:** P-Value < 0.05 ($2.52 \times 10^{-31}$).
+* **Insight:** A strong dependency exists between Diabetes and Retinopathy. Diabetic patients show a disproportionately higher rate of positive Retinopathy compared to non-diabetics.
+* **Recommendation:** Implementation of mandatory fundus screening protocols for all patients with a history of Diabetes is statistically justified to catch early-stage Retinopathy.
