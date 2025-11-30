@@ -1,56 +1,22 @@
-# # 🏥 Health Data Analytics Portfolio
-**Author:** Idarwati  
-**Role:** Health Administrator & Lecturer | Aspiring Data Analyst  
-**Focus:** Ophthalmology, Public Health, & Hospital Efficiency
+<a name="day-3"></a>
+## 📅 Day 3: Machine Learning Prediction (Glaucoma Early Warning)
+**Focus:** Supervised Machine Learning (Classification)
 
----
+### 1. Problem Statement
+Diagnosa Glaukoma sering terlambat karena gejala awal tidak terlihat. Tujuan model ini adalah membuat **Sistem Deteksi Dini Otomatis** berdasarkan data klinis dasar (Umur & Tekanan Intraokular).
 
-## 📌 Project Roadmap (Journey Log)
-Berikut adalah dokumentasi perjalanan saya mempelajari Data Science untuk kesehatan dalam 1 bulan:
+### 2. Methodology
+* **Algorithm:** Logistic Regression (Standar medis untuk prediksi biner).
+* **Data Split:** 80% Training (Belajar), 20% Testing (Ujian).
+* **Input Features:** Usia (Age) & IOP (Intraocular Pressure).
 
-* **[Minggu 1: Hospital Operations & Risk Analysis](#week-1)**
-    * [Day 1: Optimizing Eye Hospital Resources (Descriptive Analysis)](#day-1)
-    * [Day 2: Validating Clinical Risk Factors (Statistical Inference)](#day-2)
+### 3. Model Performance 🤖
+* **Accuracy:** >90% (High precision in distinguishing Glaucoma vs Normal).
+* **Confusion Matrix Insight:**
+    * Model berhasil meminimalisir *False Negative* (Pasien sakit tapi dibilang sehat), yang merupakan kesalahan fatal dalam diagnosa medis.
+* **Prediction Simulation:**
+    * *Case A (65th, IOP 25):* Predicted **Positive Glaucoma** ⚠️ (Sesuai klinis).
+    * *Case B (30th, IOP 14):* Predicted **Normal** ✅.
 
----
-
-<a name="week-1"></a>
-# 📅 WEEK 1: Hospital Operations & Risk Analysis
-
-<a name="day-1"></a>
-## 🚀 Day 1: Optimizing Eye Hospital Resources
-**Focus:** Descriptive Analytics & Visualization
-
-### 1. Latar Belakang (Background)
-Sebagai administrator kesehatan, saya melihat perlunya keputusan berbasis data. Proyek ini mensimulasikan data operasional RS Mata (n=500) untuk menganalisis hambatan layanan.
-
-### 2. Key Insights 📊
-* **Poli Katarak** memiliki volume pasien tertinggi (~35%), menjadi titik kritis antrean.
-* **Segmentasi Umur:** Poli Glaukoma didominasi pasien Geriatri (>60 th), sedangkan Poli Retina & Infeksi didominasi usia produktif.
-* **Rekomendasi:** Penerapan "Dynamic Staffing" di poli Katarak pada jam sibuk.
-
----
-
-<a name="day-2"></a>
-## 🧪 Day 2: Validating Clinical Risk Factors
-**Focus:** Statistical Hypothesis Testing (Inferential Statistics)
-
-### 1. Objective
-Setelah melihat pola visual di Day 1, hari ini saya menggunakan uji statistik untuk membuktikan apakah hubungan antar variabel klinis bersifat signifikan atau hanya kebetulan.
-
-### 2. Statistical Findings 🧮
-Saya menggunakan Python (`Scipy`) untuk melakukan uji hipotesis:
-
-#### A. Intraocular Pressure (IOP) & Glaucoma (T-Test)
-* **Hypothesis:** Apakah tekanan mata pasien Glaukoma berbeda signifikan dengan pasien Normal?
-* **Result:** P-Value < 0.05 (Signifikan).
-* **Insight:** Rata-rata TIO pasien Glaukoma (~20.4 mmHg) secara statistik lebih tinggi dibanding pasien normal. Ini memvalidasi TIO sebagai indikator skrining utama.
-
-#### B. Diabetes & Retinopathy (Chi-Square Test)
-* **Hypothesis:** Apakah riwayat Diabetes berhubungan dengan kejadian Retinopati?
-* **Result:** P-Value < 0.05 (Signifikan).
-* **Insight:** Ada ketergantungan kuat (strong dependency) antara Diabetes dan kerusakan retina.
-* **Actionable Plan:** RS wajib menerapkan protokol skrining fundus otomatis bagi setiap pasien berstatus Diabetes di pendaftaran.
-
----
-*Repository ini akan terus diupdate setiap hari selama tantangan 30 hari.*
+### 4. Business Value
+Model ini dapat diintegrasikan ke sistem pendaftaran RS (SIMRS). Saat perawat menginput tensi mata, sistem otomatis memberi "Red Flag" jika pasien berisiko tinggi, sehingga prioritas antrean dokter bisa disesuaikan.
