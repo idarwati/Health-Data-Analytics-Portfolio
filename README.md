@@ -1,56 +1,47 @@
-# # 🏥 Health Data Analytics Portfolio
-**Author:** Idarwati  
-**Role:** Health Administrator & Lecturer | Aspiring Data Analyst  
-**Focus:** Ophthalmology, Public Health, & Hospital Efficiency
+# 🏥 End-to-End Eye Hospital Data Analytics
+**Transforming Healthcare Operations with Python & Machine Learning**
+
+## 📌 Executive Summary
+Repository ini berisi dokumentasi **Simulasi 6 Hari (6-Day Challenge)** penerapan Data Science dalam manajemen Rumah Sakit Mata.
+
+Tujuannya adalah mendemonstrasikan bagaimana data dapat mengubah pengambilan keputusan RS dari *Intuisi* menjadi *Evidence-Based* (Berbasis Bukti). Proyek ini mencakup spektrum lengkap: dari Analisis Operasional, Pemetaan Geografis, hingga Prediksi AI.
 
 ---
 
-## 📌 Project Roadmap (Journey Log)
-Berikut adalah dokumentasi perjalanan saya mempelajari Data Science untuk kesehatan dalam 1 bulan:
+## 🗺️ Project Architecture (6-Day Roadmap)
+Setiap modul di bawah ini mewakili satu cabang (branch) pembelajaran dalam repository ini:
 
-* **[Minggu 1: Hospital Operations & Risk Analysis](#week-1)**
-    * [Day 1: Optimizing Eye Hospital Resources (Descriptive Analysis)](#day-1)
-    * [Day 2: Validating Clinical Risk Factors (Statistical Inference)](#day-2)
-
----
-
-<a name="week-1"></a>
-# 📅 WEEK 1: Hospital Operations & Risk Analysis
-
-<a name="day-1"></a>
-## 🚀 Day 1: Optimizing Eye Hospital Resources
-**Focus:** Descriptive Analytics & Visualization
-
-### 1. Latar Belakang (Background)
-Sebagai administrator kesehatan, saya melihat perlunya keputusan berbasis data. Proyek ini mensimulasikan data operasional RS Mata (n=500) untuk menganalisis hambatan layanan.
-
-### 2. Key Insights 📊
-* **Poli Katarak** memiliki volume pasien tertinggi (~35%), menjadi titik kritis antrean.
-* **Segmentasi Umur:** Poli Glaukoma didominasi pasien Geriatri (>60 th), sedangkan Poli Retina & Infeksi didominasi usia produktif.
-* **Rekomendasi:** Penerapan "Dynamic Staffing" di poli Katarak pada jam sibuk.
+| Day | Module | Business Question | Tech Stack |
+| :--- | :--- | :--- | :--- |
+| **01** | 📊 **Descriptive Analytics** | "Poli mana yang paling sibuk dan siapa pasiennya?" | Pandas, Seaborn |
+| **02** | 🧪 **Inferential Statistics** | "Apakah Diabetes benar-benar berhubungan dengan Retinopati?" | Scipy (Chi-Square/T-Test) |
+| **03** | 🤖 **Machine Learning** | "Bisakah kita memprediksi Glaukoma sejak pendaftaran?" | Logistic Regression (AI) |
+| **04** | 🗺️ **Geospatial (GIS)** | "Apakah jarak rumah pasien mempengaruhi tingkat keparahan?" | Folium (Interactive Map) |
+| **05** | 🗣️ **NLP (Text Mining)** | "Apa keluhan utama pasien di kolom komentar?" | WordCloud, Text Analysis |
+| **06** | 📈 **Time Series** | "Berapa prediksi jumlah pasien bulan depan?" | Linear Regression Forecasting |
 
 ---
 
-<a name="day-2"></a>
-## 🧪 Day 2: Validating Clinical Risk Factors
-**Focus:** Statistical Hypothesis Testing (Inferential Statistics)
+## 💡 Key Insights & Recommendations
 
-### 1. Objective
-Setelah melihat pola visual di Day 1, hari ini saya menggunakan uji statistik untuk membuktikan apakah hubungan antar variabel klinis bersifat signifikan atau hanya kebetulan.
+### 1. Operational Efficiency
+* **Temuan:** Poli Katarak menyumbang volume tertinggi. Antrean memuncak di hari Senin.
+* **Rekomendasi:** Penerapan *Dynamic Staffing* (pergeseran staf admin) khusus di hari Senin pagi.
 
-### 2. Statistical Findings 🧮
-Saya menggunakan Python (`Scipy`) untuk melakukan uji hipotesis:
+### 2. Clinical Prediction (AI)
+* **Temuan:** Model Machine Learning berhasil memprediksi risiko Glaukoma dengan **Akurasi >90%** berdasarkan variabel Umur dan Tekanan Mata (IOP).
+* **Rekomendasi:** Integrasi model ini ke sistem pendaftaran sebagai "Early Warning System".
 
-#### A. Intraocular Pressure (IOP) & Glaucoma (T-Test)
-* **Hypothesis:** Apakah tekanan mata pasien Glaukoma berbeda signifikan dengan pasien Normal?
-* **Result:** P-Value < 0.05 (Signifikan).
-* **Insight:** Rata-rata TIO pasien Glaukoma (~20.4 mmHg) secara statistik lebih tinggi dibanding pasien normal. Ini memvalidasi TIO sebagai indikator skrining utama.
-
-#### B. Diabetes & Retinopathy (Chi-Square Test)
-* **Hypothesis:** Apakah riwayat Diabetes berhubungan dengan kejadian Retinopati?
-* **Result:** P-Value < 0.05 (Signifikan).
-* **Insight:** Ada ketergantungan kuat (strong dependency) antara Diabetes dan kerusakan retina.
-* **Actionable Plan:** RS wajib menerapkan protokol skrining fundus otomatis bagi setiap pasien berstatus Diabetes di pendaftaran.
+### 3. Patient Experience
+* **Temuan:** Analisis sentimen teks menemukan kata kunci dominan "LAMA" dan "ANTRI".
+* **Rekomendasi:** Masalah utama bukan fasilitas fisik, melainkan *Bottleneck* di alur pelayanan.
 
 ---
-*Repository ini akan terus diupdate setiap hari selama tantangan 30 hari.*
+
+## 👤 Author
+**idarwati**
+*Health Administration Professional & Aspiring Data Analyst*
+* **Focus:** Ophthalmology, Public Health, & Hospital Management.
+* **Tools Used:** Python (Google Colab on Tablet), GitHub.
+
+---
