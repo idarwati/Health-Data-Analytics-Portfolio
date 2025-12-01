@@ -13,7 +13,7 @@ Setiap modul di bawah ini mewakili satu cabang (branch) pembelajaran dalam repos
 
 | Day | Module | Business Question | Tech Stack |
 | :--- | :--- | :--- | :--- |
-| **01** | 📊 **Descriptive Analytics** | "Poli mana yang paling sibuk dan siapa pasiennya?" | Pandas, Seaborn | H1_Pelajari_Python_29_11_2025.ipynb |
+| **01** | 📊 **Descriptive Analytics** | "Poli mana yang paling sibuk dan siapa pasiennya?" | Pandas, Seaborn |
 | **02** | 🧪 **Inferential Statistics** | "Apakah Diabetes benar-benar berhubungan dengan Retinopati?" | Scipy (Chi-Square/T-Test) |
 | **03** | 🤖 **Machine Learning** | "Bisakah kita memprediksi Glaukoma sejak pendaftaran?" | Logistic Regression (AI) |
 | **04** | 🗺️ **Geospatial (GIS)** | "Apakah jarak rumah pasien mempengaruhi tingkat keparahan?" | Folium (Interactive Map) |
