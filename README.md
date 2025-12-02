@@ -42,6 +42,6 @@ Setiap modul di bawah ini berisi kode Python lengkap. Klik pada nama modul untuk
 **idarwati**
 *Health Administration Professional & Aspiring Data Analyst*
 * **Focus:** Ophthalmology, Public Health, & Hospital Management.
-* **Tools Used:** Python (Google Colab on Tablet), GitHub.
+* **Tools Used:** Python, GitHub.
 
 ---
