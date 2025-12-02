@@ -13,7 +13,7 @@ Setiap modul di bawah ini berisi kode Python lengkap. Klik pada nama modul untuk
 
 | Day | Module (Klik untuk Kode) | Business Question | Tech Stack |
 | :--- | :--- | :--- | :--- |
-| **01** | 📄 **[Descriptive Analytics](https://github.com/idarwati/Health-Data-Analytics-Portfolio.git)** | "Poli mana yang paling sibuk?" | Pandas, Seaborn |
+| **01** | 📄 **[Descriptive Analytics](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-1)** | "Poli mana yang paling sibuk?" | Pandas, Seaborn |
 | **02** | 🧪 **[Inferential Statistics](Day2_Validasi_Risiko.ipynb)** | "Apakah Diabetes berhubungan dengan Retinopati?" | Scipy (Chi-Square) |
 | **03** | 🤖 **[Machine Learning Model](Day3_Prediksi_Glaukoma.ipynb)** | "Bisakah kita memprediksi Glaukoma?" | Logistic Regression |
 | **04** | 🗺️ **[Geospatial Analysis](Day4_Peta_Sebaran.ipynb)** | "Apakah jarak mempengaruhi tingkat keparahan?" | Folium (Map) |
