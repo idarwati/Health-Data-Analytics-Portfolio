@@ -15,7 +15,7 @@ Setiap modul di bawah ini berisi kode Python lengkap. Klik pada nama modul untuk
 | :--- | :--- | :--- | :--- |
 | **01** | 📄 **[Descriptive Analytics](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-1)** | "Poli mana yang paling sibuk?" | Pandas, Seaborn |
 | **02** | 🧪 **[Inferential Statistics](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-2)** | "Apakah Diabetes berhubungan dengan Retinopati?" | Scipy (Chi-Square) |
-| **03** | 🤖 **[Machine Learning Model](Day3_Prediksi_Glaukoma.ipynb)** | "Bisakah kita memprediksi Glaukoma?" | Logistic Regression |
+| **03** | 🤖 **[Machine Learning Model](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-3)** | "Bisakah kita memprediksi Glaukoma?" | Logistic Regression |
 | **04** | 🗺️ **[Geospatial Analysis](Day4_Peta_Sebaran.ipynb)** | "Apakah jarak mempengaruhi tingkat keparahan?" | Folium (Map) |
 | **05** | 🗣️ **[NLP Text Mining](Day5_Analisis_Sentimen.ipynb)** | "Apa keluhan utama pasien?" | WordCloud |
 | **06** | 📈 **[Time Series Forecasting](Day6_Peramalan_Pasien.ipynb)** | "Berapa prediksi pasien bulan depan?" | Linear Regression |
