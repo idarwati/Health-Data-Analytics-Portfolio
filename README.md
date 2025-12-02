@@ -9,16 +9,16 @@ Tujuannya adalah mendemonstrasikan bagaimana data dapat mengubah pengambilan kep
 ---
 
 ## 🗺️ Project Architecture (6-Day Roadmap)
-Setiap modul di bawah ini mewakili satu cabang (branch) pembelajaran dalam repository ini:
+Setiap modul di bawah ini berisi kode Python lengkap. Klik pada nama modul untuk melihat kodenya:
 
-| Day | Module | Business Question | Tech Stack |
+| Day | Module (Klik untuk Kode) | Business Question | Tech Stack |
 | :--- | :--- | :--- | :--- |
-| **01** | 📊 **Descriptive Analytics** | "Poli mana yang paling sibuk dan siapa pasiennya?" | Pandas, Seaborn |
-| **02** | 🧪 **Inferential Statistics** | "Apakah Diabetes benar-benar berhubungan dengan Retinopati?" | Scipy (Chi-Square/T-Test) |
-| **03** | 🤖 **Machine Learning** | "Bisakah kita memprediksi Glaukoma sejak pendaftaran?" | Logistic Regression (AI) |
-| **04** | 🗺️ **Geospatial (GIS)** | "Apakah jarak rumah pasien mempengaruhi tingkat keparahan?" | Folium (Interactive Map) |
-| **05** | 🗣️ **NLP (Text Mining)** | "Apa keluhan utama pasien di kolom komentar?" | WordCloud, Text Analysis |
-| **06** | 📈 **Time Series** | "Berapa prediksi jumlah pasien bulan depan?" | Linear Regression Forecasting |
+| **01** | 📄 **[Descriptive Analytics](https://github.com/idarwati/Health-Data-Analytics-Portfolio/blob/Day-1/H1_Learn_Python_29_11_2025.ipynb)** | "Poli mana yang paling sibuk?" | Pandas, Seaborn |
+| **02** | 🧪 **[Inferential Statistics](Day2_Validasi_Risiko.ipynb)** | "Apakah Diabetes berhubungan dengan Retinopati?" | Scipy (Chi-Square) |
+| **03** | 🤖 **[Machine Learning Model](Day3_Prediksi_Glaukoma.ipynb)** | "Bisakah kita memprediksi Glaukoma?" | Logistic Regression |
+| **04** | 🗺️ **[Geospatial Analysis](Day4_Peta_Sebaran.ipynb)** | "Apakah jarak mempengaruhi tingkat keparahan?" | Folium (Map) |
+| **05** | 🗣️ **[NLP Text Mining](Day5_Analisis_Sentimen.ipynb)** | "Apa keluhan utama pasien?" | WordCloud |
+| **06** | 📈 **[Time Series Forecasting](Day6_Peramalan_Pasien.ipynb)** | "Berapa prediksi pasien bulan depan?" | Linear Regression |
 
 ---
 
