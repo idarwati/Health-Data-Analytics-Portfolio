@@ -33,16 +33,7 @@ Berdasarkan hasil simulasi data, ditemukan pola yang relevan dengan masalah kese
 * **Isu Administratif vs Medis:** Sentimen negatif cenderung tinggi pada aspek operasional (kata kunci: *"Antrian"*, *"Lama"*, *"Ribet"*).
 * **Kepuasan Pelayanan:** Sentimen positif dominan pada interaksi personal dengan tenaga kesehatan (kata kunci: *"Dokter"*, *"Ramah"*).
 * **Rekomendasi Kebijakan:** Perbaikan tidak harus difokuskan pada kompetensi medis, melainkan pada **rekayasa alur pendaftaran** dan **manajemen waktu tunggu**.
-
-## 📷 Visualisasi (Preview)
-
-*(Upload screenshot WordCloud atau Grafik Anda di sini)*
-
-## 🚀 Cara Menjalankan (How to Run)
-Anda bisa melihat dan menjalankan kode ini langsung melalui Google Colab:
-
-[**🔗 Link ke Google Colab Notebook**](MASUKKAN_LINK_GOOGLE_COLAB_ANDA_DISINI)
-
+* 
 ---
-**Author:** [Nama Anda]  
-*Health Administration & Policy Enthusiast | Aspiring Health Data Analyst* [Tautkan ke LinkedIn Anda Disini]
+**Author:** idar  
+*Health Administration & Policy Enthusiast | Aspiring Health Data Analyst*
