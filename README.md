@@ -1,47 +1,48 @@
-# 🏥 End-to-End Eye Hospital Data Analytics
-**Transforming Healthcare Operations with Python & Machine Learning**
+# 🏥 Analisis Sentimen Layanan Kesehatan Masyarakat (Public Health Sentiment Analysis)
 
-## 📌 Executive Summary
-Repository ini berisi dokumentasi **Simulasi 6 Hari (6-Day Challenge)** penerapan Data Science dalam manajemen Rumah Sakit Mata.
+> **Project Status:** Completed  
+> **Domain:** Public Health, Health Informatics, Data Analytics  
+> **Tools:** Python (Pandas, Matplotlib, Seaborn, WordCloud)
 
-Tujuannya adalah mendemonstrasikan bagaimana data dapat mengubah pengambilan keputusan RS dari *Intuisi* menjadi *Evidence-Based* (Berbasis Bukti). Proyek ini mencakup spektrum lengkap: dari Analisis Operasional, Pemetaan Geografis, hingga Prediksi AI.
+## 📖 Latar Belakang (Background)
+Dalam manajemen pelayanan kesehatan, umpan balik (*feedback*) pasien adalah data krusial untuk evaluasi kualitas layanan. Metode konvensional seperti kotak saran fisik seringkali lambat dan tidak terstruktur.
+
+Proyek ini bertujuan untuk mensimulasikan **Digital Health Surveillance** sederhana. Saya menggunakan Python untuk menganalisis keluhan dan kepuasan pasien terhadap layanan Puskesmas berdasarkan data media sosial tiruan (*dummy data*).
+
+Sebagai seorang profesional di bidang **Administrasi & Kebijakan Kesehatan**, tujuan saya adalah mendemonstrasikan bagaimana data tidak terstruktur (teks) dapat diubah menjadi wawasan (*insight*) untuk pengambilan keputusan strategis.
+
+## 🎯 Tujuan (Objectives)
+1.  Melakukan **Data Generation** (simulasi data) untuk meniru pola komentar media sosial terkait layanan kesehatan.
+2.  Melakukan **Analisis Sentimen** sederhana untuk mengklasifikasikan komentar menjadi Positif, Negatif, atau Netral.
+3.  Memvisualisasikan data menggunakan **Word Cloud** dan **Bar Chart** untuk memudahkan pembacaan oleh pemangku kebijakan.
+
+## 🛠️ Metodologi & Tools
+Proyek ini dikerjakan menggunakan **Google Colab**. Langkah-langkah yang dilakukan:
+
+1.  **Data Simulation:** Membuat 100+ dataset artifisial yang mencakup berbagai topik (Antrian, Dokter, Fasilitas, Obat).
+2.  **Preprocessing:** Membersihkan teks (Case folding).
+3.  **Sentiment Logic:** Menggunakan pendekatan *Rule-Based* (Kamus Kata) untuk menentukan sentimen.
+4.  **Visualization:**
+    * `Pandas`: Manipulasi data.
+    * `Matplotlib & Seaborn`: Grafik batang distribusi sentimen.
+    * `WordCloud`: Visualisasi topik dominan.
+
+## 📊 Temuan Utama (Key Insights)
+Berdasarkan hasil simulasi data, ditemukan pola yang relevan dengan masalah kesehatan riil:
+
+* **Isu Administratif vs Medis:** Sentimen negatif cenderung tinggi pada aspek operasional (kata kunci: *"Antrian"*, *"Lama"*, *"Ribet"*).
+* **Kepuasan Pelayanan:** Sentimen positif dominan pada interaksi personal dengan tenaga kesehatan (kata kunci: *"Dokter"*, *"Ramah"*).
+* **Rekomendasi Kebijakan:** Perbaikan tidak harus difokuskan pada kompetensi medis, melainkan pada **rekayasa alur pendaftaran** dan **manajemen waktu tunggu**.
+
+## 📷 Visualisasi (Preview)
+
+*(Upload screenshot WordCloud atau Grafik Anda di sini)*
+
+## 🚀 Cara Menjalankan (How to Run)
+Anda bisa melihat dan menjalankan kode ini langsung melalui Google Colab:
+
+[**🔗 Link ke Google Colab Notebook**](MASUKKAN_LINK_GOOGLE_COLAB_ANDA_DISINI)
 
 ---
-
-## 🗺️ Project Architecture (6-Day Roadmap)
-Setiap modul di bawah ini berisi kode Python lengkap. Klik pada nama modul untuk melihat kodenya:
-
-| Day | Module (Klik untuk Kode) | Business Question | Tech Stack |
-| :--- | :--- | :--- | :--- |
-| **01** | 📄 **[Descriptive Analytics](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-1)** | "Poli mana yang paling sibuk?" | Pandas, Seaborn |
-| **02** | 🧪 **[Inferential Statistics](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-2)** | "Apakah Diabetes berhubungan dengan Retinopati?" | Scipy (Chi-Square) |
-| **03** | 🤖 **[Machine Learning Model](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-3)** | "Bisakah kita memprediksi Glaukoma?" | Logistic Regression |
-| **04** | 🗺️ **[Geospatial Analysis](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-4)** | "Apakah jarak mempengaruhi tingkat keparahan?" | Folium (Map) |
-| **05** | 🗣️ **[NLP Text Mining](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-5)** | "Apa keluhan utama pasien?" | WordCloud |
-| **06** | 📈 **[Time Series Forecasting](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-6)** | "Berapa prediksi pasien bulan depan?" | Linear Regression |
-
----
-
-## 💡 Key Insights & Recommendations
-
-### 1. Operational Efficiency
-* **Temuan:** Poli Katarak menyumbang volume tertinggi. Antrean memuncak di hari Senin.
-* **Rekomendasi:** Penerapan *Dynamic Staffing* (pergeseran staf admin) khusus di hari Senin pagi.
-
-### 2. Clinical Prediction (AI)
-* **Temuan:** Model Machine Learning berhasil memprediksi risiko Glaukoma dengan **Akurasi >90%** berdasarkan variabel Umur dan Tekanan Mata (IOP).
-* **Rekomendasi:** Integrasi model ini ke sistem pendaftaran sebagai "Early Warning System".
-
-### 3. Patient Experience
-* **Temuan:** Analisis sentimen teks menemukan kata kunci dominan "LAMA" dan "ANTRI".
-* **Rekomendasi:** Masalah utama bukan fasilitas fisik, melainkan *Bottleneck* di alur pelayanan.
-
----
-
-## 👤 Author
-**idarwati**
-*Health Administration Professional & Aspiring Data Analyst*
-* **Focus:** Ophthalmology, Public Health, & Hospital Management.
-* **Tools Used:** Python, GitHub.
-
----
+**Author:** [Nama Anda]  
+*Health Administration & Policy Enthusiast | Aspiring Health Data Analyst* [Tautkan ke LinkedIn Anda Disini]
