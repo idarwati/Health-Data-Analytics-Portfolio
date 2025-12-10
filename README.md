@@ -1,4 +1,4 @@
-# Model Transformasi Digital Rumah Sakit Berbasis Interoperable Health Building Blocks
+# Model Transformasi Digital
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green)
