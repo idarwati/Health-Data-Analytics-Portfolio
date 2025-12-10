@@ -64,7 +64,7 @@ Tahap krusial dalam proyek ini adalah proses **Data Merging** (Bridging) yang me
 
 ## 👤 Penulis
 
-**[Nama Anda]** *Health Administration & Policy Enthusiast | Lecturer | Data Science Learner* [Tautan Profil LinkedIn Anda]
+**idar** *Health Administration & Policy Enthusiast | Lecturer | Data Science Learner* [Tautan Profil LinkedIn Anda]
 
 ---
 *Disclaimer: Data yang digunakan dalam proyek ini adalah data sintetis (dummy) yang dibuat untuk tujuan simulasi dan pendidikan. Tidak ada data pasien asli yang digunakan.*
