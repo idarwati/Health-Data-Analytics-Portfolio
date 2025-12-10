@@ -1,47 +1,24 @@
-# 🏥 End-to-End Eye Hospital Data Analytics
-**Transforming Healthcare Operations with Python & Machine Learning**
+# Pengembangan Model Early Warning System (EWS) Penyakit Menular Berbasis Machine Learning
 
-## 📌 Executive Summary
-Repository ini berisi dokumentasi **Simulasi 6 Hari (6-Day Challenge)** penerapan Data Science dalam manajemen Rumah Sakit Mata.
+## 📌 Deskripsi Proyek
+Proyek ini bertujuan untuk membangun sistem peringatan dini (Early Warning System) guna memprediksi lonjakan kasus **Demam Berdarah Dengue (DBD)** dan **Diare** di tingkat Puskesmas. Model ini memanfaatkan data historis epidemiologi dan data iklim untuk membantu Dinas Kesehatan dalam pengambilan keputusan berbasis data.
 
-Tujuannya adalah mendemonstrasikan bagaimana data dapat mengubah pengambilan keputusan RS dari *Intuisi* menjadi *Evidence-Based* (Berbasis Bukti). Proyek ini mencakup spektrum lengkap: dari Analisis Operasional, Pemetaan Geografis, hingga Prediksi AI.
+## 🎯 Tujuan
+* Memprediksi tren kenaikan kasus 1 bulan ke depan.
+* Mendukung manajemen sumber daya (obat, bed, nakes) sebelum KLB terjadi.
+* Mengintegrasikan data **LB1 Puskesmas** dengan data **Satelit Iklim**.
 
----
+## 🛠️ Metodologi & Teknologi
+* **Bahasa:** Python
+* **Platform:** Google Colab
+* **Algoritma:** Long Short-Term Memory (LSTM) Neural Network.
+* **Data Input:**
+    * Data Penyakit (Time Series 5 Tahun).
+    * Variabel Prediktor: Curah Hujan, Suhu, Kelembaban.
 
-## 🗺️ Project Architecture (6-Day Roadmap)
-Setiap modul di bawah ini berisi kode Python lengkap. Klik pada nama modul untuk melihat kodenya:
+## 📊 Hasil Analisis
+*(Disini Anda bisa menaruh screenshot Grafik dari Google Colab)*
+Model berhasil mengikuti pola musiman kasus DBD dengan tingkat error (MAE) sebesar [X] kasus. Hal ini menunjukkan bahwa variabel iklim memiliki korelasi kuat sebagai prediktor.
 
-| Day | Module (Klik untuk Kode) | Business Question | Tech Stack |
-| :--- | :--- | :--- | :--- |
-| **01** | 📄 **[Descriptive Analytics](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-1)** | "Poli mana yang paling sibuk?" | Pandas, Seaborn |
-| **02** | 🧪 **[Inferential Statistics](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-2)** | "Apakah Diabetes berhubungan dengan Retinopati?" | Scipy (Chi-Square) |
-| **03** | 🤖 **[Machine Learning Model](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-3)** | "Bisakah kita memprediksi Glaukoma?" | Logistic Regression |
-| **04** | 🗺️ **[Geospatial Analysis](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-4)** | "Apakah jarak mempengaruhi tingkat keparahan?" | Folium (Map) |
-| **05** | 🗣️ **[NLP Text Mining](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-5)** | "Apa keluhan utama pasien?" | WordCloud |
-| **06** | 📈 **[Time Series Forecasting](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-6)** | "Berapa prediksi pasien bulan depan?" | Linear Regression |
-
----
-
-## 💡 Key Insights & Recommendations
-
-### 1. Operational Efficiency
-* **Temuan:** Poli Katarak menyumbang volume tertinggi. Antrean memuncak di hari Senin.
-* **Rekomendasi:** Penerapan *Dynamic Staffing* (pergeseran staf admin) khusus di hari Senin pagi.
-
-### 2. Clinical Prediction (AI)
-* **Temuan:** Model Machine Learning berhasil memprediksi risiko Glaukoma dengan **Akurasi >90%** berdasarkan variabel Umur dan Tekanan Mata (IOP).
-* **Rekomendasi:** Integrasi model ini ke sistem pendaftaran sebagai "Early Warning System".
-
-### 3. Patient Experience
-* **Temuan:** Analisis sentimen teks menemukan kata kunci dominan "LAMA" dan "ANTRI".
-* **Rekomendasi:** Masalah utama bukan fasilitas fisik, melainkan *Bottleneck* di alur pelayanan.
-
----
-
-## 👤 Author
-**idarwati**
-*Health Administration Professional & Aspiring Data Analyst*
-* **Focus:** Ophthalmology, Public Health, & Hospital Management.
-* **Tools Used:** Python, GitHub.
-
----
+## 🔗 Kontak
+Dibuat oleh idar
