@@ -1,47 +1,24 @@
-# 🏥 End-to-End Eye Hospital Data Analytics
-**Transforming Healthcare Operations with Python & Machine Learning**
+# Public Health Data Science Portfolio 🏥
 
-## 📌 Executive Summary
-Repository ini berisi dokumentasi **Simulasi 6 Hari (6-Day Challenge)** penerapan Data Science dalam manajemen Rumah Sakit Mata.
+Repository ini berisi tiga penerapan utama Artificial Intelligence dalam bidang Kesehatan Masyarakat.
 
-Tujuannya adalah mendemonstrasikan bagaimana data dapat mengubah pengambilan keputusan RS dari *Intuisi* menjadi *Evidence-Based* (Berbasis Bukti). Proyek ini mencakup spektrum lengkap: dari Analisis Operasional, Pemetaan Geografis, hingga Prediksi AI.
+## 📂 Daftar Proyek
 
----
+### 1. Deteksi Risiko Penyakit Jantung (Supervised Learning)
+* **Tujuan:** Memprediksi risiko penyakit jantung pasien berdasarkan data klinis (Tensi, Kolesterol, Usia).
+* **Metode:** Logistic Regression.
+* **Hasil:** Model mampu mengidentifikasi pasien berisiko tinggi dengan akurasi yang baik.
 
-## 🗺️ Project Architecture (6-Day Roadmap)
-Setiap modul di bawah ini berisi kode Python lengkap. Klik pada nama modul untuk melihat kodenya:
+### 2. Segmentasi Pasien Puskesmas (Unsupervised Learning)
+* **Tujuan:** Mengelompokkan pasien berdasarkan karakteristik fisik untuk intervensi kesehatan yang lebih tepat sasaran.
+* **Metode:** K-Means Clustering.
+* **Insight:** Ditemukan 3 klaster utama: Kelompok Sehat, Risiko Obesitas, dan Risiko Diabetes Kronis.
 
-| Day | Module (Klik untuk Kode) | Business Question | Tech Stack |
-| :--- | :--- | :--- | :--- |
-| **01** | 📄 **[Descriptive Analytics](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-1)** | "Poli mana yang paling sibuk?" | Pandas, Seaborn |
-| **02** | 🧪 **[Inferential Statistics](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-2)** | "Apakah Diabetes berhubungan dengan Retinopati?" | Scipy (Chi-Square) |
-| **03** | 🤖 **[Machine Learning Model](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-3)** | "Bisakah kita memprediksi Glaukoma?" | Logistic Regression |
-| **04** | 🗺️ **[Geospatial Analysis](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-4)** | "Apakah jarak mempengaruhi tingkat keparahan?" | Folium (Map) |
-| **05** | 🗣️ **[NLP Text Mining](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-5)** | "Apa keluhan utama pasien?" | WordCloud |
-| **06** | 📈 **[Time Series Forecasting](https://github.com/idarwati/Health-Data-Analytics-Portfolio/tree/Day-6)** | "Berapa prediksi pasien bulan depan?" | Linear Regression |
-
----
-
-## 💡 Key Insights & Recommendations
-
-### 1. Operational Efficiency
-* **Temuan:** Poli Katarak menyumbang volume tertinggi. Antrean memuncak di hari Senin.
-* **Rekomendasi:** Penerapan *Dynamic Staffing* (pergeseran staf admin) khusus di hari Senin pagi.
-
-### 2. Clinical Prediction (AI)
-* **Temuan:** Model Machine Learning berhasil memprediksi risiko Glaukoma dengan **Akurasi >90%** berdasarkan variabel Umur dan Tekanan Mata (IOP).
-* **Rekomendasi:** Integrasi model ini ke sistem pendaftaran sebagai "Early Warning System".
-
-### 3. Patient Experience
-* **Temuan:** Analisis sentimen teks menemukan kata kunci dominan "LAMA" dan "ANTRI".
-* **Rekomendasi:** Masalah utama bukan fasilitas fisik, melainkan *Bottleneck* di alur pelayanan.
+### 3. Optimasi Uji Klinis Obat (Reinforcement Learning)
+* **Tujuan:** Menemukan obat paling efektif dalam simulasi wabah dengan cepat untuk meminimalkan korban.
+* **Metode:** Multi-Armed Bandit (Epsilon-Greedy Algorithm).
+* **Hasil:** Agen AI berhasil belajar memilih obat terbaik (Obat B) secara otomatis seiring bertambahnya data pasien.
 
 ---
-
-## 👤 Author
-**idarwati**
-*Health Administration Professional & Aspiring Data Analyst*
-* **Focus:** Ophthalmology, Public Health, & Hospital Management.
-* **Tools Used:** Python, GitHub.
-
----
+**Tools:** Python, Scikit-Learn, Pandas, NumPy, Matplotlib.
+**Author:** idarwati
